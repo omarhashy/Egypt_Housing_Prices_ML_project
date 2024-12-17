@@ -52,4 +52,3 @@ print("Mean Absolute Error:", mae)
 joblib.dump(svr_model, 'svr_model.pkl')
 
 
-loaded_svr_model = joblib.load('svr_model.pkl')
