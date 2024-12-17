@@ -3,7 +3,6 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 from sklearn.linear_model import LinearRegression
-import joblib
 
 df = pd.read_csv('data.csv')
 
