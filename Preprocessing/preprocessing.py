@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-file_path = 'filepath.csv' 
+file_path = 'data.csv' 
 data = pd.read_csv(file_path)
 
 #drop rented apartments
